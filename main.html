@@ -1,24 +1,40 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
-  <meta charset="utf-8" />
-  <title>Soundbar</title>
-  <link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <div id="buttons">
-    <button class="btn" id="btn1" src="https://gaana.com/playlist/aparvakarangutkar-zabyh-audio">Audio 1</button>
-    <button class="btn" id="btn2" src="https://gaana.com/playlist/aparvakarangutkar-zabyh-audio">Audio 2</button>
-    <button class="btn" id="btn3" src="https://gaana.com/playlist/aparvakarangutkar-zabyh-audio">Audio 3</button>
-    <button class="btn" id="btn4" src="https://gaana.com/playlist/aparvakarangutkar-zabyh-audio">Audio 4</button>
-    <button class="btn" id="btn5" src="https://gaana.com/playlist/aparvakarangutkar-zabyh-audio">Audio 5</button>
-    <button class="btn" id="btn6" src="https://gaana.com/playlist/aparvakarangutkar-zabyh-audio">Audio 6</button>
-    <button class="btn stop" id="stop">Stop</button>
-  </div>
+	<section id="buttons">
+		 <input  class="btn" id="bt-n" type="button" value="applause" onclick="play()">
+         <audio  id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
+		
+		 <input class="btn" id="bt-n" type="button" value="boo" onclick="play()">
+         <audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
+		
+		 <input class="btn" id="bt-n" type="button" value="gasp" onclick="play()">
+         <audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
 
-   <script type="text/javascript" src="./script.js">
+		 <input class="btn" id="bt-n" type="button" value="tada" onclick="play()">
+         <audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
+
+		 <input class="btn" id="bt-n" type="button" value="victory" onclick="play()">
+         <audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
+		
+		<input class="btn" id="bt-n" type="button" value="wrong" onclick="play()">
+         <audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
+
+		<input class="stop" id="bt-n" type="button" value="stop" onclick="stop()">
+         <audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
+		
+	</section>
+	
+	<!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js">
+</script>
+
 </body>
 
 </html>

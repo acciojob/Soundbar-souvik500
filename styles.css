@@ -1,29 +1,26 @@
 /*  your css code here. If applicable */
-/*  your css code here. If applicable */
+
+body{
+	background-color : blueviolet;
+	width : 600px;
+	margin: auto;
+}
+
 #buttons {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	margin-top: 20px;
+	align-items: center;  
+	height: 100vh
 }
 
-.btn {
-	padding: 10px;
-	margin: 10px;
-	background-color: #3498db;
+input {
+	font-size: 14px;
+	padding: 10px 20px;
+	margin:  10px;
+	border-radius: 5px;
+	background-color: violet;
 	color: white;
 	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-}
-
-.stop {
-	padding: 10px;
-	margin: 10px;
-	background-color: #3498db;
-	color: white;
-	border: none;
-	border-radius: 5px;
+	outline: none;
 	cursor: pointer;
 }
